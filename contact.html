@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+<title> contact me! </title>
+
+<link rel="stylesheet" type="text/css" href="css/legend.css">
+
+<style type="text/css">
+
+a:link {color: #ffffff; text-decoration: underline; }
+a:active {color: #cccccc; text-decoration: underline; }
+a:visited {color: #fff; text-decoration: underline; }
+a:hover {color: #3caa85; text-decoration: none; }
+</style>
+
+<link rel="icon" href="images/agu.png" type="favicon">
+
+<script>
+      function initMap() {
+  var myLatLng = {lat: 49.2611, lng: -123.2531};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
+
+</head>
+
+<body>
+
+<div id="container"> 
+
+
+
+<div id="navigation">
+
+<ul id="navmenu">
+<li> <a href="home.html">home</a></li>
+<li> <a href="personal.html">personal</a></li>
+<li> <a href="academic.html">academic</a></li>
+<li> <a href="contact.html">contact</a></li>
+<li> <a href="games.html">games?</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id="wrapper">
+<div id="row">
+
+<div id="map"></div>
+
+<div id="numbers">
+<p> email: sallyxpang@gmail.com </p>
+<p> phone: 778-997-1006 </p>
+<p> fb, linkedin, git @ bottom :-) </p>
+</div>
+
+<div id="contact">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="60" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="60"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>
+</div>
+
+</div>
+</div>
+
+
+
+<ul id="footnavmenu">
+<a href="https://www.facebook.com/saallyok"><img src="images/fb.png" width="50" height="50"></a>
+<a href="https://ca.linkedin.com/pub/sally-pang/a5/398/350"><img src="images/linkedin.png" width="50" height="50"></a>
+<a href="https://www.github.com/sallypang"><img src="images/git.png" width="50" height="50"></a>
+
+</ul>
+
+</body>
+
+
+
+</html>

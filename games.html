@@ -1,0 +1,86 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+<title> galpalsal </title>
+
+<link rel="stylesheet" type="text/css" href="css/legend.css">
+
+<style type="text/css">
+
+a:link {color: #ffffff; text-decoration: underline; }
+a:active {color: #cccccc; text-decoration: underline; }
+a:visited {color: #fff; text-decoration: underline; }
+a:hover {color: #3caa85; text-decoration: none; }
+</style>
+
+<link rel="icon" href="images/agu.png" type="favicon">
+
+</head>
+
+<body>
+
+<div id="container"> 
+
+
+
+<div id="navigation">
+
+<ul id="navmenu">
+<li> <a href="home.html">home</a></li>
+<li> <a href="personal.html">personal</a></li>
+<li> <a href="academic.html">academic</a></li>
+<li> <a href="contact.html">contact</a></li>
+<li> <a href="games.html">games?</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id="sponge">
+<h1>Spongebob Trivia</h1>
+<p>Who is Spongebobs' best friend?</p>
+
+<input id="numb" type="string">
+<button type="button" onclick="friendFunction()">Submit</button>
+<p id="demo"></p>
+
+<script>
+function friendFunction() {
+     var x, text;
+x = document.getElementById("numb").value;
+
+if (x=="patrick" || x=="Patrick") {
+text ="Yes!";
+} else {
+text="Try again!";
+}
+document.getElementById("demo").innerHTML=text;
+}
+
+</script>
+
+<br>
+<img src="http://vignette3.wikia.nocookie.net/parody/images/1/11/SpongeBob.jpg/revision/latest/scale-to-width/180?cb=20140203221329" alt="Spongebob"
+usemap="sponge" style="width:120px; height:120px">
+
+<map name="sponge">
+<area shape="rect" coords="0,0,82,126" alt="Pat" href="patrick.html">
+</map>
+
+</div>
+
+
+
+<ul id="footnavmenu">
+<a href="https://www.facebook.com/saallyok"><img src="images/fb.png" width="50" height="50"></a>
+<a href="https://ca.linkedin.com/pub/sally-pang/a5/398/350"><img src="images/linkedin.png" width="50" height="50"></a>
+<a href="https://www.github.com/sallypang"><img src="images/git.png" width="50" height="50"></a>
+
+</ul>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+<h1>Spongebob Trivia</h1>
+<p>Who is Spongebobs' best friend?</p>
+
+<input id="numb" type="string">
+<button type="button" onclick="friendFunction()">Submit</button>
+<p id="demo"></p>
+
+<script>
+function friendFunction() {
+     var x, text;
+x = document.getElementById("numb").value;
+
+if (x=="patrick" || x=="Patrick") {
+text ="Yes!";
+} else {
+text="Try again!";
+}
+document.getElementById("demo").innerHTML=text;
+}
+
+</script>
+
+<br>
+<img src="http://vignette3.wikia.nocookie.net/parody/images/1/11/SpongeBob.jpg/revision/latest/scale-to-width/180?cb=20140203221329" alt="Spongebob"
+usemap="sponge" style="width:300px; height:300px">
+
+<map name="sponge">
+<area shape="rect" coords="0,0,82,126" alt="Pat" href="patrick.html">
+</map>
+
+</head>
+</html>

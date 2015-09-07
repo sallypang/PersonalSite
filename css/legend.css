@@ -1,0 +1,153 @@
+body{
+font-family:courier new, helvetica;
+background-image: url(../images/bg1.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+#container{
+width:1300px;
+margin: 0 auto;
+background-color: #000;
+}
+#navigation{
+height:100px;
+border:3px solid #e3e3e3;
+margin-top:50px;
+background-color: #565656;
+}
+ul#navmenu{
+list-style-type: none;
+font-size:30px;
+}
+ul#navmenu li{
+width:230px;
+color:#fff;
+text-align:center;
+float:left;
+margin-right:4px;
+}
+il#navmenu a{
+text-decoration:none;
+text-align:center;
+color:#ffffff;
+display:block;
+width: 80px;
+height:10px;
+background-color:#ffffff;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+
+ul#footnavmenu{
+list-style-type: none;
+margin-left:1100px;
+margin-top:400;
+}
+ul#footnavmenu a{
+top:50%;
+margin-top: 350px;
+vertical-align:middle;
+}
+
+#wrapper {
+display:table;
+width:1300px;
+height:400px;
+margin-top:30px;
+margin-left:20px;
+}
+
+#row{
+display:table-row;
+}
+
+#map {
+display:table-cell;
+width: 500px;
+background-color:#ccc;
+border:3px solid #565656;
+
+}
+
+#numbers {
+display:table-cell;
+width:300px;
+background-color:#ccc;
+border:3px solid #565656;
+text-align:center;
+vertical-align: middle;
+}
+
+#contact{
+display:table-cell;
+width:500px;
+background-color:#ccc;
+border:3px solid #565656;
+text-align:center;
+}
+
+#pic {
+width:299px;
+height:365px;
+margin-left: 20px;
+margin-top:30px;
+border:3px solid #565656;
+float:left;
+margin-bottom:20px;
+}
+
+#info{
+width:899px;
+height:365px;
+background-color:#ccc;
+margin-left: 90px;
+margin-top:30px;
+border:3px solid #565656;
+float:left;
+margin-bottom:20px;
+text-align:center;
+}
+
+#courses {
+width:400px;
+height:325px;
+background-color:#ccc;
+margin-left: 160px;
+margin-top:30px;
+border:3px solid #565656;
+float:left;
+margin-bottom:20px;
+text-align:center;
+vertical-align:center;
+}
+
+#resume {
+width:400px;
+height:325px;
+background-color:#fff;
+margin-left: 160px;
+margin-top:30px;
+border:3px solid #565656;
+float:left;
+margin-bottom:20px;
+text-align:center;
+vertical-align:center;
+
+}
+
+#sponge{
+width:400px;
+height:325px;
+background-color:#fff;
+margin-left: 20px;
+margin-top:30px;
+border:3px solid #565656;
+float:left;
+margin-bottom:20px;
+text-align:center;
+vertical-align:center;
+}
+
+
